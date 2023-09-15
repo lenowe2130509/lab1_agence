@@ -1,2 +1,6 @@
-﻿  Faction.cpp
+﻿  FactoryVaisseau.cpp
+  guerre.cpp
+  lab1_agence.cpp
+M:\Documents\code\jeuxvideo\lab1_agence\lab1_agence\lab1_agence\lab1_agence\lab1_agence.cpp(17,15): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+  Génération de code en cours...
   lab1_agence.vcxproj -> M:\Documents\code\jeuxvideo\lab1_agence\lab1_agence\lab1_agence\x64\Debug\lab1_agence.exe

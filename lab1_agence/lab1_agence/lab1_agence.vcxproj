@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="bleu.cpp" />
     <ClCompile Include="Faction.cpp" />
+    <ClCompile Include="FactoryVaisseau.cpp" />
     <ClCompile Include="guerre.cpp" />
     <ClCompile Include="lab1_agence.cpp" />
     <ClCompile Include="livraison.cpp" />
@@ -139,6 +140,7 @@
   <ItemGroup>
     <ClInclude Include="bleu.h" />
     <ClInclude Include="Faction.h" />
+    <ClInclude Include="FactoryVaisseau.h" />
     <ClInclude Include="guerre.h" />
     <ClInclude Include="livraison.h" />
     <ClInclude Include="rouge.h" />

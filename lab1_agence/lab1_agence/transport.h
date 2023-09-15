@@ -6,6 +6,7 @@ class transport :
 {
 public :
 	transport();
+	transport(Faction* _faction);
 	~transport();
 	virtual std::string to_string();
 };

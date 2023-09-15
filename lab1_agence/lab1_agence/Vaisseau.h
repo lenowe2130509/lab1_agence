@@ -1,5 +1,6 @@
 #pragma once
 #include <string>
+#include "Faction.h"
 class Vaisseau
 {
 protected : 
@@ -11,10 +12,12 @@ protected :
 	std::string nom;
 	int niveau; 
 	int exp;
+	Faction* faction;
 
 public :
 	Vaisseau();
-	Vaisseau(int attaque, int defense, int vie, int capacite);
+	Vaisseau(Faction* _faction);
+	Vaisseau(int attaque, int defense, int vie, int capacite, Faction* _faction);
 	inline int getValeurMarchande() { return valeurMarchande; }
 
 	int getAtt();

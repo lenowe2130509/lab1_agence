@@ -4,6 +4,7 @@ class livraison :
 {
 public:
 	livraison();
+	livraison(Faction* _faction);
 	~livraison();
 	virtual std::string to_string();
 };

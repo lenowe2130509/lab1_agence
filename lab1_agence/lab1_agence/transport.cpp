@@ -1,8 +1,13 @@
 #include "transport.h"
-
-transport::transport() : Vaisseau(0,4,8,50)
+#include "Faction.h"
+transport::transport() : Vaisseau(0,4,8,50, faction)
 {
 
+}
+
+transport::transport(Faction* _faction)
+{
+	faction = _faction;
 }
 
 
