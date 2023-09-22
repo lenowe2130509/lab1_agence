@@ -134,6 +134,7 @@
     <ClCompile Include="lab1_agence.cpp" />
     <ClCompile Include="livraison.cpp" />
     <ClCompile Include="rouge.cpp" />
+    <ClCompile Include="Station.cpp" />
     <ClCompile Include="transport.cpp" />
     <ClCompile Include="Vaisseau.cpp" />
   </ItemGroup>
@@ -144,6 +145,7 @@
     <ClInclude Include="guerre.h" />
     <ClInclude Include="livraison.h" />
     <ClInclude Include="rouge.h" />
+    <ClInclude Include="Station.h" />
     <ClInclude Include="transport.h" />
     <ClInclude Include="Vaisseau.h" />
   </ItemGroup>

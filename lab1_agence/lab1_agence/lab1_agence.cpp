@@ -18,6 +18,8 @@ int main()
     std::cout << "... production d'un vaisseau" << std::endl;
     Vaisseau* monVaisseau = FactoryVaisseau::getRandomVaisseau();
     std::cout << monVaisseau->to_string();
+
+    delete monVaisseau;
     
     
     /*transport* vaisseau1 = new transport();
